@@ -4,8 +4,16 @@
 ### OS
 https://www.raspberrypi.org/software/
 
-#### set alias
+##### Set git
+```
+$ git config --global user.email "dalgosim@gmail.com"
+$ git config --global user.name "dalgosim"
+```
+##### Set alias
 https://www.raspberrypi.org/documentation/linux/usage/bashrc.md
+```
+$ cp .bash_aliases ~/.bash_aliases
+```
 
 ### MariaDB
 https://pimylifeup.com/raspberry-pi-mysql/
