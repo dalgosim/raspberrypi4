@@ -30,7 +30,7 @@ https://howtoraspberrypi.com/enable-mysql-remote-connection-raspberry-pi/
 ### Jupyter notebook
 https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/
 ```
-## example
+## Running in the background
 $ nohup jupyter-notebook --ip="192.168.0.11" --no-browser &
 ```
 
