@@ -6,8 +6,8 @@ https://www.raspberrypi.org/software/
 
 ##### Set git
 ```
-$ git config --global user.email "dalgosim@gmail.com"
-$ git config --global user.name "dalgosim"
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "my name"
 ```
 ##### Set alias
 https://www.raspberrypi.org/documentation/linux/usage/bashrc.md
