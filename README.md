@@ -31,6 +31,7 @@ https://howtoraspberrypi.com/enable-mysql-remote-connection-raspberry-pi/
 https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/
 ##### Additional packages
 ```
+## for '500: Internal Server Error'
 $ pip3 install voila-gridstack
 ```
 ##### Running in the background
