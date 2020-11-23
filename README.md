@@ -29,7 +29,7 @@ https://howtoraspberrypi.com/enable-mysql-remote-connection-raspberry-pi/
 
 ### Jupyter notebook
 https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/
-##### additional packages
+##### Additional packages
 ```
 $ pip3 install voila-gridstack
 ```
