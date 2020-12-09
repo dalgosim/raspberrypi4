@@ -36,7 +36,7 @@ $ pip3 install voila-gridstack
 ```
 ##### Running in the background
 ```
-$ nohup jupyter-notebook --ip="192.168.0.11" --no-browser &
+$ nohup jupyter-notebook --ip="0.0.0.0" --no-browser &
 ```
 
 ### fancontrol
