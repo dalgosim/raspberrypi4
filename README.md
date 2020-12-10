@@ -40,4 +40,7 @@ $ nohup jupyter-notebook --ip="0.0.0.0" --no-browser &
 ```
 
 ### fancontrol
+##### auto_fancontrol
 https://gyuha.tistory.com/506
+##### quiet/full speed cooling mode(3v/5v)
+https://www.raspberrypi.org/forums/viewtopic.php?t=248918
