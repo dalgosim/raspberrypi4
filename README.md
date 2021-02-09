@@ -29,6 +29,15 @@ https://howtoraspberrypi.com/enable-mysql-remote-connection-raspberry-pi/
 
 ### Jupyter notebook
 https://www.instructables.com/Jupyter-Notebook-on-Raspberry-Pi/
+### Node.js
+https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+```
+$ sudo apt-get update
+$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ sudo apt-get install -y npm
+$ npm install npx -g
+```
 ##### Additional packages
 ```
 ## for '500: Internal Server Error'
