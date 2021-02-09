@@ -36,7 +36,7 @@ $ sudo apt-get update
 $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 $ sudo apt-get install -y npm
-$ npm install npx -g
+$ sudo npm install npx -g
 ```
 ##### Additional packages
 ```
