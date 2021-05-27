@@ -27,6 +27,7 @@ pip3 install tensorflow
 ### install related packages
 ```
 sudo apt-get install cmake build-essential pkg-config libgoogle-perftools-dev
+sudo apt-get install autoconf automake libtool libprotobuf-c++ protobuf-compiler libprotobuf-dev
 sudo apt-get install rustc cargo
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
