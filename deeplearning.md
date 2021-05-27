@@ -22,3 +22,22 @@ sudo apt install libatlas-base-dev
 ```
 pip3 install tensorflow
 ```
+
+## sentencepiece
+### install related packages
+```
+sudo apt-get install cmake build-essential pkg-config libgoogle-perftools-dev
+sudo apt-get install rustc cargo
+```
+
+### build sentencepiece
+```
+git clone https://github.com/google/sentencepiece.git 
+cd sentencepiece
+mkdir build
+cd build
+cmake ..
+make -j $(nproc)
+sudo make install
+sudo ldconfig -v
+```
