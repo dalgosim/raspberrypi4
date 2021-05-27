@@ -59,3 +59,12 @@ sudo ldconfig -v
 # src/CMakeFiles/spm_decode.dir/link.txt
 # src/CMakeFiles/spm_encode.dir/link.txt
 ```
+
+### 
+```
+git clone https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+./bootstrap-vcpkg.sh
+./vcpkg integrate install
+./vcpkg install sentencepiece
+```
