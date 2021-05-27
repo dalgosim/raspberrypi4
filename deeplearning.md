@@ -28,6 +28,7 @@ pip3 install tensorflow
 ```
 sudo apt-get install cmake build-essential pkg-config libgoogle-perftools-dev
 sudo apt-get install rustc cargo
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ### build sentencepiece
