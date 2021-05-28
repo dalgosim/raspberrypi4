@@ -3,6 +3,7 @@
 ## Install
 ### OS
 https://www.raspberrypi.org/software/
+64bit : https://www.raspberrypi.org/forums/viewtopic.php?f=117&t=275370
 
 ##### ssh
 https://www.raspberrypi.org/documentation/remote-access/ssh/
