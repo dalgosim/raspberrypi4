@@ -30,16 +30,21 @@ sudo mysql -u root -p
 
 ### packages
 ```
-sudo apt install -y git nodejs
+sudo apt install -y git nodejs python3-pip
 ```
 
 ### port open
 ```
 sudo ufw allow mysql
+sudo ufw allow 8888
+sudo ufw allow 9000
 ```
 
 
 ## jupyter lab
+```
+pip3 install jupyterlab
+```
 ### 서비스 등록하기
 ```
 sudo vi /etc/systemd/system/jupyter.service
