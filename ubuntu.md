@@ -1,3 +1,15 @@
+# setting
+### keyboard
+```
+sudo apt-get update
+sudo apt-get install fcitx-hangul
+```
+설정 > 지역 및 언어 > 설치된 언어 관리 > 입력기 > fcitx
+```
+reboot
+```
+
+
 ## jupyter lab
 ### 서비스 등록하기
 ```
