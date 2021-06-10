@@ -28,7 +28,7 @@ sudo mysql -u root -p
 ```
 
 
-## packages
+## other packages
 ```
 sudo apt install -y git nodejs python3-pip
 ```
