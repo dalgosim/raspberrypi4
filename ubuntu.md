@@ -9,6 +9,35 @@ sudo apt-get install fcitx-hangul
 reboot
 ```
 
+### mysql
+설치, 시작, 재부팅시 자동시작
+```
+sudo apt install mysql-server
+sudo systemctl start mysql
+sudo systemctl enable mysql
+```
+
+계정 설정
+```
+# 따로 설정하지 않았다면, 우분투 비번과 동일
+sudo mysql -u root -p
+> CREATE DATABASE [db_name];
+> CREATE USER 'dalgosim'@'%' IDENTIFIED BY '계정비번';
+> GRANT ALL PRIVILEGES ON [db_name].* FOR 'dalgosim'@'%';
+> FLUSH PRIVILEGES;
+```
+
+
+### packages
+```
+sudo apt install -y git nodejs
+```
+
+### port open
+```
+sudo ufw allow mysql
+```
+
 
 ## jupyter lab
 ### 서비스 등록하기
