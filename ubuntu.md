@@ -45,6 +45,24 @@ sudo ufw allow 9000
 ```
 pip3 install jupyterlab
 ```
+### 설정
+password 암호화
+```
+from notebook.auth import passwd
+my_password = "spam-and-eggs"
+hashed_password = passwd(passphrase=my_password, algorithm='sha256')
+print(hashed_password)
+```
+환경설정
+```
+jupyter-lab --generate-config
+> c.ServerApp.allow_origin = '*'
+> c.ServerApp.notebook_dir = '/home/sasim/jupyter'
+> c.ServerApp.open_browser = False
+> c.ServerApp.password = u'sha256:~~~'
+> c.ServerApp.port = 8888
+```
+
 ### 서비스 등록하기
 ```
 sudo vi /etc/systemd/system/jupyter.service
