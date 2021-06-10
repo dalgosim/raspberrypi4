@@ -1,5 +1,5 @@
 # setting
-### keyboard
+## keyboard
 ```
 sudo apt-get update
 sudo apt-get install fcitx-hangul
@@ -9,7 +9,7 @@ sudo apt-get install fcitx-hangul
 reboot
 ```
 
-### mysql
+## mysql
 설치, 시작, 재부팅시 자동시작
 ```
 sudo apt install mysql-server
@@ -28,12 +28,17 @@ sudo mysql -u root -p
 ```
 
 
-### packages
+## packages
 ```
 sudo apt install -y git nodejs python3-pip
 ```
+git 설정
+```
+git config --global user.email "dalgosim@gmail.com"
+git config --global user.name "dalgosim"
+```
 
-### port open
+## port open
 ```
 sudo ufw allow mysql
 sudo ufw allow 8888
