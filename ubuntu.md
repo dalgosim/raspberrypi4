@@ -23,7 +23,7 @@ sudo systemctl enable mysql
 sudo mysql -u root -p
 > CREATE DATABASE [db_name];
 > CREATE USER 'dalgosim'@'%' IDENTIFIED BY '계정비번';
-> GRANT ALL PRIVILEGES ON [db_name].* FOR 'dalgosim'@'%';
+> GRANT ALL PRIVILEGES ON [db_name].* TO 'dalgosim'@'%';
 > FLUSH PRIVILEGES;
 ```
 
