@@ -16,6 +16,12 @@ sudo apt install mysql-server
 sudo systemctl start mysql
 sudo systemctl enable mysql
 ```
+외부 접속 허용
+```
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+> # bind-address = 127.0.0.1
+sudo systemctl restart mysql
+```
 
 계정 설정
 ```
