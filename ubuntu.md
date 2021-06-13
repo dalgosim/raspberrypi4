@@ -38,14 +38,6 @@ git config --global user.email "dalgosim@gmail.com"
 git config --global user.name "dalgosim"
 ```
 
-## port open
-```
-sudo ufw allow mysql
-sudo ufw allow 8888
-sudo ufw allow 9000
-```
-
-
 ## jupyter lab
 ```
 pip3 install jupyterlab
@@ -92,4 +84,12 @@ sudo systemctl start jupyter.service
 
 # 서비스 상태 확인
 sudo systemctl status jupyter.service
+```
+
+
+## port open
+```
+sudo ufw allow mysql
+sudo ufw allow 8888
+sudo ufw allow 9000
 ```
