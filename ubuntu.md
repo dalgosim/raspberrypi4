@@ -62,6 +62,7 @@ print(hashed_password)
 ```
 jupyter-lab --generate-config
 > c.ServerApp.allow_origin = '*'
+> c.ServerApp.ip = '0.0.0.0'
 > c.ServerApp.notebook_dir = '/home/sasim/jupyter'
 > c.ServerApp.open_browser = False
 > c.ServerApp.password = u'sha256:~~~'
