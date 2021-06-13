@@ -36,7 +36,7 @@ sudo mysql -u root -p
 
 ## other packages
 ```
-sudo apt install -y git nodejs python3-pip
+sudo apt install -y git nodejs python3-pip npm
 ```
 git 설정
 ```
