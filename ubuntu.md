@@ -36,6 +36,9 @@ git 설정
 ```
 git config --global user.email "dalgosim@gmail.com"
 git config --global user.name "dalgosim"
+
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
 ```
 
 ## jupyter lab
